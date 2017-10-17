@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exploding Kittens</title>
+        <meta charset"UTF-8">
+        <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="/js/scripts.js"></script>
+    </head>
+    <body>
+        <h1>Exploding Kittens</h1>
+        <!-- Chat -->
+        <section>
+            <h4>Chatters</h4>
+            <div id="chatters"></div>
+            <div id="holder">
+                <div id="chat"></div>
+                <div id="users">
+                </div>
+            </div>
+            <form id="chatForm">
+                <input type="text" name="message" placeholder="Enter a message here" id="message">
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </section>
+        <!-- Chat -->
+
+        <!-- Game -->
+        
+        <div id="players"></div>
+        <div id="gameInit">
+            <button id="join">Join a game</button>
+            <button id="start">Start the game</button>
+        </div>
+        <div id="cards"></div>
+        <div id="actions"></div>
+
+        
+        <!-- Game -->
+    </body>
+</html>

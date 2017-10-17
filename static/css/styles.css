@@ -1,0 +1,32 @@
+h1 {
+    font-family: Arial;
+}
+
+#chat, #chatters {
+    border: solid 1px black;
+    width: 45%;
+    overflow: auto;
+    margin-bottom: 1em;
+    padding: 5px;
+}
+
+#chat {
+    height: 300px;
+}
+
+#chatters {
+    width: 10%;
+}
+
+.card {
+    border: 1px solid black;
+    display: inline-block;
+    height: 200px;
+    margin: 3px;
+    padding: 5px;
+    width: 15%;
+}
+
+.selected {
+    background-color: lightblue;
+}
